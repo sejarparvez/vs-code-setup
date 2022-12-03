@@ -93,3 +93,23 @@
 ```
 
 ## Extension
+
+1. Auto Rename Tag
+2. Bracket Pair Color Dw
+3. Code Runner
+4. Dracula Official
+5. Es7+ React/Redux/React-Native Snippets
+6. ESLint
+7. Live Server
+8. Path Autocomplete
+9. Prettier
+10. Tailwind CSS Intellisense
+11. Turbo Console Log
+12. Vs Code Icon
+
+
+
+
+
+
+
