@@ -2,7 +2,8 @@
 
 ### Setings.json
 
-`{
+```
+{
   // editor
   "editor.fontSize": 18,
   "editor.fontFamily": "Fira Code",
@@ -88,3 +89,7 @@
   "files.autoSave": "afterDelay",
   "editor.multiCursorModifier": "ctrlCmd"
 }
+
+```
+
+## Extension
