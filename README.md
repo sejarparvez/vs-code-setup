@@ -3,6 +3,7 @@
 ### Setings.json
 
 ```
+
 {
   // editor
   "editor.fontSize": 22,
@@ -27,7 +28,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
@@ -48,7 +49,7 @@
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#000000",
-    "terminal.foreground": "#ffffff",
+    "terminal.foreground": "#3cff3f",
     "terminalCursor.background": "#000000",
     "terminalCursor.foreground": "#23ff3c",
     "terminal.ansiBlack": "#000000",
@@ -68,7 +69,7 @@
     "terminal.ansiWhite": "#A5A2A2",
     "terminal.ansiYellow": "#FDED02",
     "terminalCommandDecoration.defaultBackground": "#1dff51",
-    
+
     "[Dracula]": {
       "activityBar.border": "#00ff2a",
       "activityBar.activeBackground": "#000",
@@ -90,6 +91,7 @@
   "files.autoSave": "afterDelay",
   "editor.multiCursorModifier": "ctrlCmd"
 }
+
 
 
 
