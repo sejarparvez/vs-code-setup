@@ -47,27 +47,28 @@
   "workbench.iconTheme": "vscode-icons",
   // terminal customization
   "workbench.colorCustomizations": {
-    "terminal.background": "#090300",
-    "terminal.foreground": "#a7f369",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#000000",
-    "terminalCursor.foreground": "#00ff2a",
-    "terminal.ansiBlack": "#090300",
-    "terminal.ansiBlue": "#01A0E4",
-    "terminal.ansiBrightBlack": "#5C5855",
-    "terminal.ansiBrightBlue": "#01A0E4",
-    "terminal.ansiBrightCyan": "#B5E4F4",
-    "terminal.ansiBrightGreen": "#01A252",
-    "terminal.ansiBrightMagenta": "#A16A94",
-    "terminal.ansiBrightRed": "#DB2D20",
+    "terminalCursor.foreground": "#23ff3c",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#46c7ff",
+    "terminal.ansiBrightBlack": "#000000",
+    "terminal.ansiBrightBlue": "#38ff06",
+    "terminal.ansiBrightCyan": "#2acaff",
+    "terminal.ansiBrightGreen": "#ff04d5",
+    "terminal.ansiBrightMagenta": "#ff5bd9",
+    "terminal.ansiBrightRed": "#ff4343",
     "terminal.ansiBrightWhite": "#F7F7F7",
     "terminal.ansiBrightYellow": "#FDED02",
     "terminal.ansiCyan": "#B5E4F4",
     "terminal.ansiGreen": "#01A252",
     "terminal.ansiMagenta": "#A16A94",
-    "terminal.ansiRed": "#DB2D20",
+    "terminal.ansiRed": "#ff3b2d",
     "terminal.ansiWhite": "#A5A2A2",
     "terminal.ansiYellow": "#FDED02",
-    "terminalCommandDecoration.defaultBackground": "#ff0000",
+    "terminalCommandDecoration.defaultBackground": "#1dff51",
+    
     "[Dracula]": {
       "activityBar.border": "#00ff2a",
       "activityBar.activeBackground": "#000",
@@ -89,6 +90,7 @@
   "files.autoSave": "afterDelay",
   "editor.multiCursorModifier": "ctrlCmd"
 }
+
 
 
 ```
