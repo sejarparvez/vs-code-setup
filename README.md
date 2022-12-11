@@ -120,7 +120,7 @@ yarn add -D eslint prettier
 
 npx install-peerdeps --dev eslint-config-airbnb-base`
 
-``
+```
 
 ```
 
