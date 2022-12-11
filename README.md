@@ -5,7 +5,7 @@
 ```
 {
   // editor
-  "editor.fontSize": 18,
+  "editor.fontSize": 22,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
@@ -28,7 +28,7 @@
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
@@ -89,6 +89,7 @@
   "files.autoSave": "afterDelay",
   "editor.multiCursorModifier": "ctrlCmd"
 }
+
 
 ```
 
