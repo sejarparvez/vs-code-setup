@@ -28,8 +28,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
@@ -49,7 +49,7 @@
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#000000",
-    "terminal.foreground": "#3cff3f",
+    "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#000000",
     "terminalCursor.foreground": "#23ff3c",
     "terminal.ansiBlack": "#000000",
