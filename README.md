@@ -137,7 +137,7 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
 
 ## Setup Linting Configuration file
 
-Create a .eslintrc.json file in the project root and enter the below contents:
+Create a <b>.eslintrc.json</b> file in the project root and enter the below contents:
 
 ```
 
