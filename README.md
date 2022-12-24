@@ -3,7 +3,6 @@
 ### Setings.json
 
 ```
-
 {
   // editor
   "editor.fontSize": 22,
@@ -12,11 +11,23 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.tokenColorCustomizations": {
+    "comments": "#adacac",
+    "functions": "#38ff59",
+    "strings": "#ffffff",
+    "keywords": "#36ff40",
+    "variables": "#41bef8",
     "textMateRules": [
       {
         "scope": "comment",
         "settings": {
           "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword",
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#ff30f5"
         }
       }
     ]
@@ -70,27 +81,28 @@
     "terminal.ansiYellow": "#FDED02",
     "terminalCommandDecoration.defaultBackground": "#1dff51",
 
-    "[Dracula]": {
+    "[2077]": {
       "activityBar.border": "#00ff2a",
-      "activityBar.activeBackground": "#000",
+      "activityBar.activeBackground": "#16cc2b",
       "editor.background": "#000000",
-      "sideBar.background": "#04041b",
+      "sideBar.background": "#000000",
       "sideBar.border": "#00ff2a",
-      "editor.lineHighlightBorder": "#00ff2a",
-      "statusBar.background": "#0d1133",
-      "statusBar.foreground": "#fff",
+      "statusBar.background": "#0c2c68",
+      "statusBar.foreground": "#ffffff",
       "activityBar.foreground": "#ffffff",
       "breadcrumb.background": "#0d1133",
-      "breadcrumb.foreground": "#00ff2a",
-      "breadcrumb.focusForeground": "#ff0000"
+      "breadcrumb.foreground": "#ffffff",
+      "breadcrumb.focusForeground": "#2cf53c",
+      "editorLineNumber.foreground": "#3cfcdc",
+      "editorLineNumber.activeForeground": "#ff3cf8"
     }
   },
-  "workbench.colorTheme": "Dracula",
-  "editor.lineNumbers": "relative",
-  "window.zoomLevel": -1,
+  "editor.lineNumbers": "on",
   "files.autoSave": "afterDelay",
-  "editor.multiCursorModifier": "ctrlCmd"
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.colorTheme": "2077"
 }
+
 
 
 
@@ -100,9 +112,9 @@
 ## Extension
 
 1. Auto Rename Tag
-2. Bracket Pair Color Dw
+2. Bracket Pair Color Dwl
 3. Code Runner
-4. Dracula Official
+4. 2077 theme
 5. Es7+ React/Redux/React-Native Snippets
 6. ESLint
 7. Live Server
