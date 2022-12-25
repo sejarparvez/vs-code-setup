@@ -14,7 +14,7 @@
     "comments": "#adacac",
     "functions": "#38ff59",
     "strings": "#ffffff",
-    "keywords": "#36ff40",
+    "keywords": "#f1ff2e",
     "variables": "#41bef8",
     "textMateRules": [
       {
@@ -23,6 +23,7 @@
           "fontStyle": "italic"
         }
       },
+
       {
         "scope": "keyword",
         "settings": {
@@ -57,6 +58,7 @@
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Sans",
   "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.cursorBlinking": true,
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#000000",
@@ -80,6 +82,7 @@
     "terminal.ansiWhite": "#A5A2A2",
     "terminal.ansiYellow": "#FDED02",
     "terminalCommandDecoration.defaultBackground": "#1dff51",
+    "terminal.border": "#39ff39",
 
     "[2077]": {
       "activityBar.border": "#00ff2a",
@@ -87,14 +90,21 @@
       "editor.background": "#000000",
       "sideBar.background": "#000000",
       "sideBar.border": "#00ff2a",
-      "statusBar.background": "#0c2c68",
+      "statusBar.background": "#000550",
       "statusBar.foreground": "#ffffff",
       "activityBar.foreground": "#ffffff",
       "breadcrumb.background": "#0d1133",
       "breadcrumb.foreground": "#ffffff",
       "breadcrumb.focusForeground": "#2cf53c",
       "editorLineNumber.foreground": "#3cfcdc",
-      "editorLineNumber.activeForeground": "#ff3cf8"
+      "editorLineNumber.activeForeground": "#ff3cf8",
+      "icon.foreground": "#3cfd3c",
+      "tab.activeBackground": "#0c0661",
+      "tab.activeBorder": "#5bff31",
+      "panel.background": "#030449",
+      "panelTitle.activeForeground": "#4fff38",
+      "panelTitle.inactiveForeground": "#ffffff",
+      "panel.border": "#82ff2f"
     }
   },
   "editor.lineNumbers": "on",
@@ -102,6 +112,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.colorTheme": "2077"
 }
+
 
 
 
